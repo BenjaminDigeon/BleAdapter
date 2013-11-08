@@ -36,7 +36,6 @@ public class DeviceDiscoveryService extends Service {
         mBluetoothAdapter = bluetoothManager.getAdapter();
 
         if (mBluetoothAdapter == null || !mBluetoothAdapter.isEnabled()) {
-            // Toast.makeText(this, "Pas de Ble, Blaireau", Toast.LENGTH_SHORT).show();
             stopSelf();
         } else {
             scanLeDevice(true);

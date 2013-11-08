@@ -2,13 +2,6 @@ package com.indy.labs.android.BleEventAdapter.events;
 
 import android.bluetooth.BluetoothGatt;
 
-/**
- * Created with IntelliJ IDEA.
- * User: damien
- * Date: 13-09-28
- * Time: 18:41
- * To change this template use File | Settings | File Templates.
- */
 public class ServiceDiscoveredEvent {
 
     private final int mStatus;
